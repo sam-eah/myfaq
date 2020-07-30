@@ -57,9 +57,9 @@ export default {
   computed: {
     myFilteredData() {
       return this.myData.filter(item => 
-        !this.label
-        || (item.question.includes(this.label)) 
-        || (item.answer.includes(this.label))
+        !this.label ||
+        (item.question.includes(this.label)) || 
+        (item.answer.includes(this.label))
       )
     }
   }
