@@ -45,7 +45,7 @@ export default {
     label: "",
     myData: [
       {   
-        question: "Quel est ma couleur préférée ?",
+        question: "Quelle est ma couleur préférée ?",
         answer: "Ma couleur préférée est le rouge"
       },
       {
